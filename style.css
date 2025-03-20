@@ -41,8 +41,8 @@ body {
     border: 0;
     background-color: black;
     color: white;
-    font-family: fontLR;
-    font-size: 20px;
+    font-family: font;
+    font-size: 16px;
 }
 
 input::placeholder {
