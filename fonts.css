@@ -1,0 +1,13 @@
+@font-face {
+    font-family: fontM;
+    src: url(fonts/BigShouldersStencil_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: fontSB;
+    src: url(fonts/BigShouldersStencil_18pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: fontLR;
+    src: url(fonts/ShadowsIntoLight-Regular.ttf);
+}
+

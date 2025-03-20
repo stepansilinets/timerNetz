@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timerNetz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="time">T I M E R netz</h1>
+        <div id="timer">00:00</div>
+        <input type="number" id="minutes" class="timer" placeholder="MINUTES" min="0">
+        <input type="number" id="seconds" class="timer" placeholder="SECONDS" min="0" max="59">
+        <button class="main__button" id="start">START</button>
+        <button class="main__button" id="stop">STOP</button>
+        <button class="main__button" id="reset">RESET</button>
+    </div>
+    
+    <button class="settings-button" id="settings-button">Внешний вид</button>
+    
+    <div class="settings-panel" id="settings-panel">
+        <h2 class="settings">Настройки Внешнего Вида</h2>
+        <label for="background"></label>
+        <input class="second__button0" type="file" id="background" accept="image/*">
+        <br>
+        <button class="second__button" id="remove-background">Удалить фон</button> 
+        <button class="second__button" id="close-settings">Закрыть</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
